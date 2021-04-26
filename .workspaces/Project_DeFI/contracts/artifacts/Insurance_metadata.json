@@ -1,0 +1,255 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "group_id",
+						"type": "uint256"
+					}
+				],
+				"name": "checkStatus",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "size",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "id_user",
+						"type": "address"
+					}
+				],
+				"name": "enrollTeam",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getBalanceCreate",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "grp_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "id_user",
+						"type": "address"
+					}
+				],
+				"name": "joinTeam",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "pay",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "group_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "addr",
+						"type": "uint256"
+					}
+				],
+				"name": "makePayment",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "pay",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "group_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "paymentIndividual",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "temp_teamsData",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "group_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "group_size",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "prem_amt",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "payment_status",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "temp_user_id",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/insurance.sol": "Insurance"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/insurance.sol": {
+			"keccak256": "0x63ad2349309afb9e7b3e41c1c13733d78a1dfe1ba503910dd209b6280ea84006",
+			"urls": [
+				"bzz-raw://a6ab6a7cb0d7cfa89a359898c2ad1e0d8a3226521954c75dc810e038119c35f5",
+				"dweb:/ipfs/QmUrU4q95mxesg3GrtYUmYbAnQgyPAZSMCLc6GsCaEomRg"
+			]
+		}
+	},
+	"version": 1
+}

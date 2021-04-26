@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getbalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/10_FallBack.sol": "SendEther"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/10_FallBack.sol": {
+			"keccak256": "0xf93ca6e30d4fa7626ad058ef4b87742fd22dfa1691b71e94ab79ae530c4b65ef",
+			"urls": [
+				"bzz-raw://12beb223ae821c6435c11d1d7ad307959a246bafeb7ce86f17e6305b6d0bed32",
+				"dweb:/ipfs/QmV1aCQ14LPscvRPMzGAtcKvGy9x7ybKTwmcpcnbYGBs1U"
+			]
+		}
+	},
+	"version": 1
+}

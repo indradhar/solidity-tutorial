@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "gets1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "sets1",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"browser/contracts/StructDemo.sol": "StructContract"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"browser/contracts/StructDemo.sol": {
+			"keccak256": "0xf2aff9ce6833feeebc2900959eded70338eff34ba720829577a4930d8d9414f3",
+			"urls": [
+				"bzz-raw://5f64f0afd071102b0e9c52ad66580c5f4def403cd6747c397e3dacda11d53f32",
+				"dweb:/ipfs/QmTXGqh5AKNrWkJsQYp2esd1JNLiXcLAEbTigAfkjpBKPg"
+			]
+		}
+	},
+	"version": 1
+}

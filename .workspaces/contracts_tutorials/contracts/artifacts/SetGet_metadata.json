@@ -1,0 +1,68 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getVal",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					}
+				],
+				"name": "setVal",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/9_ConceptsFunc.sol": "SetGet"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/9_ConceptsFunc.sol": {
+			"keccak256": "0x27d3483dc5e0a08e4ed7e750987eb552e89f7be36be383a78b41bdd30fa0b253",
+			"urls": [
+				"bzz-raw://04034f8134d3cd184490987bea5db3e4d0b5e021c856c832071fdbdb03be9713",
+				"dweb:/ipfs/QmT1Pv9RjZToMYwxWBZWGD9cHt6G3AQFZfvKcjUSYkWCsC"
+			]
+		}
+	},
+	"version": 1
+}
