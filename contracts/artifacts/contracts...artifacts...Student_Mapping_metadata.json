@@ -1,0 +1,149 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "m1",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "m2",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "m3",
+						"type": "int256"
+					},
+					{
+						"internalType": "string",
+						"name": "n",
+						"type": "string"
+					}
+				],
+				"name": "enrollStudent",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "r",
+						"type": "uint256"
+					},
+					{
+						"internalType": "int256",
+						"name": "m1",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "m2",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "m3",
+						"type": "int256"
+					}
+				],
+				"name": "repeatResult",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "studentData",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "roll",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "int256",
+						"name": "mark1",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "mark2",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "mark3",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "per",
+						"type": "int256"
+					},
+					{
+						"internalType": "bool",
+						"name": "reg_status",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/6_StudentMappingDemo.sol": "Student_Mapping"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/6_StudentMappingDemo.sol": {
+			"keccak256": "0x36b0afa167b96b2c86fcae936e140dae3c2fd044d8994f1565227a62414d9c04",
+			"urls": [
+				"bzz-raw://f3cf92966d8bbc3edee7b80fe40c55f84e55ad41588b7bc4f9c7aa705a28ef71",
+				"dweb:/ipfs/QmQdXELkRGeSLMwqye4ianwPdpuEgSMb9SNYqfLusVm3aG"
+			]
+		}
+	},
+	"version": 1
+}
